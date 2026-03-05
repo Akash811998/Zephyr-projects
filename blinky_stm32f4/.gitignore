@@ -1,0 +1,57 @@
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: STM32F4 Blinky Project
+
+# Build artifacts
+build/
+build-*/
+*.o
+*.a
+*.d
+*.cmd
+*.log
+*.pyc
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# West
+.west/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Tags
+tags
+TAGS
+cscope.*
+
+# Cargo
+Cargo.lock
+target/
+
+# Misc
+.cache/
+.clangd/
+.env
