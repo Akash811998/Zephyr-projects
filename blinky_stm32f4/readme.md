@@ -6,3 +6,7 @@ activate the environment:
 
 Then build the project, you have to build it from the zephyr folder else you might end up with errors:
     (.venv) C:\Users\virendra\zephyrproject\zephyr>west build -p always -b nucleo_u385rg_q ..\blinky_stm32f4
+
+
+Then use: west flash
+to flash the image on the target
